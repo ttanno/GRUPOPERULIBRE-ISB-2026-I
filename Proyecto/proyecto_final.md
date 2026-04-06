@@ -20,6 +20,24 @@ Además, procesaremos las señales obtenidas que nos van a permitir diferenciar 
 ## Plan de actividades
 ![gantt](Media/gantt.png)
 
+Fase 1: Definición del proyecto
+Se decide qué se va a medir, qué músculos se van a evaluar y cómo será el sistema. También se hace un esquema general del funcionamiento.
+
+Fase 2: Adquisición de señal
+Se eligen los sensores y se realizan pruebas para obtener las señales del músculo en distintas condiciones, como reposo y contracción.
+
+Fase 3: Procesamiento de señales
+Se limpian las señales para quitar ruido, se dividen en partes y se calculan valores que indiquen la tensión muscular.
+
+Fase 4: Análisis y clasificación
+Se establecen rangos para la señal, se clasifican los niveles de tensión y se comparan resultados entre diferentes personas.
+
+Fase 5: Sistema de feedback
+Se crean alertas en tiempo real y una interfaz para mostrar los resultados. También se ajusta el sistema y se prepara el informe final.
+
+Presentación
+Se muestra el proyecto terminado y se explican los resultados obtenidos.
+
 ## Referencias
 [1] Y. Meng et al., “The associations between sedentary behavior and neck pain: A systematic review and meta-analysis,” BMC Public Health, vol. 25, 2025.
 https://link.springer.com/article/10.1186/s12889-025-21685-9
