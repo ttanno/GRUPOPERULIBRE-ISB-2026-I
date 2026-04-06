@@ -18,6 +18,7 @@ Nuestra propuesta de solución es un sistema que capta las señales electromiogr
 Además, procesaremos las señales obtenidas que nos van a permitir diferenciar estados de baja, media y alta tensión muscular, así como la identificación de patrones. Esta información será integrada en una aplicación tanto en el celular como en la laptop, que brindará retroalimentación al usuario mediante alertas y visualización interactiva de métricas, ayudando en  la corrección postural durante el trabajo prolongado.
 
 ## Plan de actividades
+![gantt](Media/gantt.png)
 
 ## Referencias
 [1] Y. Meng et al., “The associations between sedentary behavior and neck pain: A systematic review and meta-analysis,” BMC Public Health, vol. 25, 2025.
