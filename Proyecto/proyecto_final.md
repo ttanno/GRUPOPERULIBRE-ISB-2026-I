@@ -1,6 +1,20 @@
 # Proyecto final - Análisis de tensión muscular durante el uso prolongado de laptop
 
 ## Introducción
+Las señales biomédicas constituyen una herramienta fundamental para el estudio objetivo de los procesos fisiológicos en diversos escenarios, ya que permiten registrar y analizar la actividad eléctrica generada por diferentes sistemas del cuerpo, como el cardíaco, cerebral y muscular. Su aplicación en el ámbito clínico y de investigación ha facilitado la detección temprana, el monitoreo y la clasificación de diversas condiciones y enfermedades, especialmente aquellas relacionadas con alteraciones funcionales que no son fácilmente perceptibles de manera subjetiva [1]. En este contexto, la electromiografía (EMG) adquiere un papel relevante en el análisis de la actividad muscular, permitiendo evaluar fenómenos como la fatiga y la sobrecarga muscular a partir de características, por ejemplo, en el dominio del tiempo y la frecuencia [2]. Esto resulta particularmente importante frente a los crecientes problemas como el uso prolongado de laptops en estudiantes universitarios, donde las posturas inadecuadas y la actividad muscular sostenida pueden derivar en trastornos musculoesqueléticos.
+
+La problemática general que se abordará es el análisis de tensión muscular durante el uso prolongado de laptop. Por otro lado, el usuario objetivo se puede delimitar mediante criterios de exclusión e inclusión en base a 4 criterios: género, ocupación, estado de salud, tiempo de uso de laptop.
+
+Criterios de inclusión:
+1. Hombres y mujeres estudiantes universitarios.
+  - Tiempo mínimo de uso seguido de laptop de 2 horas al día
+  - Sin comorbilidades sistémicas
+2. Criterios de exclusión:
+  - Enfermedades metabólicas y oncológicas activas
+  - Trastornos cardiovasculares o cardio respiratorios diagnosticados
+  - Otras condiciones que puedan alterar la respuesta fisiológica para la actividad elegida
+
+La delimitación se hizo por motivos prácticos del curso, en este sentido, se puede resumir al usuario objetivo como un estudiante universitario, hombre o mujer, que utiliza laptop de forma continua por al menos 2 horas diarias, sin enfermedades sistémicas ni condiciones médicas que alteren su respuesta fisiológica.
 
 ## Problemática
 
