@@ -43,22 +43,17 @@ Este sistema permitirá no solo la detección objetiva de fatiga muscular median
 ![gantt](Media/gantt.png)
 
 Fase 1: Definición del proyecto
-Se decide qué se va a medir, qué músculos se van a evaluar y cómo será el sistema. También se hace un esquema general del funcionamiento.
-
-Fase 2: Adquisición de señal
-Se eligen los sensores y se realizan pruebas para obtener las señales del músculo en distintas condiciones, como reposo y contracción.
-
+Se establece el enfoque del estudio, problemática y revisión bibliográfica, seleccionando el músculo trapecio superior y definiendo cómo se medirá la fatiga muscular mediante EMG, así como el funcionamiento general del sistema.
+Fase 2: Adquisición de la señal
+Se seleccionan los sensores y se realizan pruebas iniciales para registrar la señal EMG en diferentes condiciones, como reposo y uso prolongado de laptop así como testeo entre los integrantes del equipo.
 Fase 3: Procesamiento de señales
-Se limpian las señales para quitar ruido, se dividen en partes y se calculan valores que indiquen la tensión muscular.
-
+Las señales obtenidas se limpian para eliminar ruido y se procesan para extraer características relevantes que permitan describir la actividad muscular.
 Fase 4: Análisis y clasificación
-Se establecen rangos para la señal, se clasifican los niveles de tensión y se comparan resultados entre diferentes personas.
-
-Fase 5: Sistema de feedback
-Se crean alertas en tiempo real y una interfaz para mostrar los resultados. También se ajusta el sistema y se prepara el informe final.
-
-Presentación
-Se muestra el proyecto terminado y se explican los resultados obtenidos.
+Se analizan los datos y se establecen criterios para clasificar la fatiga muscular en niveles (baja, media y alta), comparando resultados entre usuarios.
+Fase 5: Retroalimentación y sistema final
+Se implementa una interfaz que muestre los resultados y genere alertas en tiempo real, ajustando el sistema para su funcionamiento completo.
+Presentación final
+Se expone el prototipo desarrollado junto con los resultados obtenidos y su aplicación en la prevención de fatiga muscular.
 
 ## Referencias
 [1] Y. Meng et al., “The associations between sedentary behavior and neck pain: A systematic review and meta-analysis,” BMC Public Health, vol. 25, 2025.
