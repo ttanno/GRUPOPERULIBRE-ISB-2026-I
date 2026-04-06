@@ -62,14 +62,20 @@ Presentación final
 Se expone el prototipo desarrollado junto con los resultados obtenidos y su aplicación en la prevención de fatiga muscular.
 
 ## Referencias
-[1] Y. Meng et al., “The associations between sedentary behavior and neck pain: A systematic review and meta-analysis,” BMC Public Health, vol. 25, 2025.
-https://link.springer.com/article/10.1186/s12889-025-21685-9
+[1] C. Zhang et al., "Bridging Signal Intelligence and Clinical Insight: A Comprehensive Review of Feature Engineering, Model Interpretability, and Machine Learning in Biomedical Signal Analysis," Applied Sciences, vol. 15, no. 22, p. 12036, Nov. 2025. https://www.mdpi.com/2076-3417/15/22/12036
 
-[2] G. Kandasamy et al., “Prevalence of musculoskeletal pain among undergraduate students,” Frontiers in Medicine, vol. 11, 2024
-https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2024.1403267/full
+[2] J. Liu, Y. Ren, Y. Cao, and J. Guo, "Application of Surface Electromyography in Exercise Fatigue: A Review," Frontiers in Systems Neuroscience, vol. 16, Jun. 2022. https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2022.893275/full
 
-[3] K. Gao et al., “Prevalence of neck pain and its associated factors among university students: A systematic review and meta-analysis,” BMC Public Health, vol. 23, 2023.
-https://link.springer.com/search?query=Risk+factors+for+neck+pain+in+college+students%3A+a+systematic+review+and+meta-analysis
+[3] Y. Meng et al., “The associations between sedentary behavior and neck pain: A systematic review and meta-analysis,” BMC Public Health, vol. 25, 2025. https://link.springer.com/article/10.1186/s12889-025-21685-9
 
-[4] M. Intolo, M. Shaphe, and S. Reddy, “Analysis of neck and shoulder posture and muscle activity during laptop use on different surfaces,” Applied Ergonomics, vol. 79, pp. 1–7, 2019.
-https://pubmed.ncbi.nlm.nih.gov/31256105/
+[4] G. Kandasamy et al., “Prevalence of musculoskeletal pain among undergraduate students,” Frontiers in Medicine, vol. 11, 2024 https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2024.1403267/full
+
+[5] K. Gao et al., “Prevalence of neck pain and its associated factors among university students: A systematic review and meta-analysis,” BMC Public Health, vol. 23, 2023. https://link.springer.com/search?query=Risk+factors+for+neck+pain+in+college+students%3A+a+systematic+review+and+meta-analysis
+
+[6] M. Intolo, M. Shaphe, and S. Reddy, “Analysis of neck and shoulder posture and muscle activity during laptop use on different surfaces,” Applied Ergonomics, vol. 79, pp. 1–7, 2019. https://pubmed.ncbi.nlm.nih.gov/31256105/
+
+[7] Z. Guo et al., "Effects of laptop screen height on neck and shoulder muscle fatigue and spine loading for office workers," Work, vol. 79, no. 4, pp. 1925-1937, 2024. https://pubmed.ncbi.nlm.nih.gov/38995755/
+
+[8] J. Müller-Thyssen-Uriarte et al., "Electromyographic Activity of Cervical Muscles in Patients with Neck Pain and Changes After Dry Needling: A Narrative Review," Journal of Clinical Medicine, vol. 13, no. 23, art. 7288, Nov. 2024. https://www.mdpi.com/2077-0383/13/23/7288
+
+[9] L. Straker et al., "Trapezius muscle activity variation during computer work performed by individuals with and without neck-shoulder pain," Applied Ergonomics, vol. 78, pp. 176-183, Jul. 2019. https://www.sciencedirect.com/science/article/abs/pii/S0003687018307415 
