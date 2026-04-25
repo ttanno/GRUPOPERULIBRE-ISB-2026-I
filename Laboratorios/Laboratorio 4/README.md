@@ -10,5 +10,50 @@ El análisis es realizado en un programa de Python, bajo la plataforma Google Co
 # Resultados
 ## Fotos
 ### Gastrocnemio derecho
-![Gastrocnemio derecho](GRUPOPERULIBRE-ISB-2026-I/Laboratorios/Laboratorio 4/VIDEOS Y FOTOS/gastrocnemioDerecho.png)
-### Bicep derecho
+![Gastrocnemio derecho](VIDEOS%20Y%20FOTOS/gastrocnemioDerecho.png)
+### Bíceps derecho
+![Bíceps derecho](VIDEOS%20Y%20FOTOS/bicepDerecho.png)
+## Ploteo de señales
+### Bíceps con peso
+![Biceps con peso señal 1](VIDEOS%20Y%20FOTOS/conPeso1Señal.png)
+![Biceps con peso señal 2](VIDEOS%20Y%20FOTOS/conPeso2Señal.png)
+### Bíceps sin peso
+![Biceps sin peso señal 1](VIDEOS%20Y%20FOTOS/sinPeso1Señal.png)
+![Biceps sin peso señal 2](VIDEOS%20Y%20FOTOS/sinPeso2Señal.png)
+### Gastrocnemio derecho
+![Gastrocnemio derecho](VIDEOS%20Y%20FOTOS/pantorrillaSeñal.png)
+# Discusión
+## Análisis de resultados
+El presente estudio permitió registrar y analizar señales electromiográficas del músculo bíceps braquial y gastrocnemio durante estados de reposo y contracción muscular, empleando un sistema Bitalino (r)evolution.
+### Análisis del músculo bíceps braquial
+En las señales registradas para el bíceps braquial, se observaron incrementos claros en la amplitud de la señal EMG durante las contracciones musculares, especialmente marcados en las condiciones con carga de 5 kg. Este incremento de amplitud es consistente con lo reportado por Stefanovic, F. [2], quienes documentaron incrementos lineales en la amplitud EMG del bíceps braquial al aumentar el nivel de contracción en sujetos jóvenes sanos (edad promedio 22 años), reflejando el reclutamiento progresivo de unidades motoras ante demandas de fuerza incrementadas.
+El análisis espectral mediante FFT revela que el espectro de potencia se concentra principalmente en el rango de 10-100 Hz. En las condiciones con peso de 5 kg se evidencia una mayor densidad de potencia en frecuencias bajas, sugiriendo un posible inicio de fatiga muscular. Sun, J. [3] señalan que el desplazamiento del contenido espectral hacia frecuencias más bajas es un marcador confiable de fatiga localizada, atribuido a la acumulación de metabolitos y cambios en la velocidad de conducción de las fibras musculares.
+Los espectrogramas obtenidos mediante STFT muestran la evolución temporal del contenido frecuencial durante cada contracción. Durante los picos de actividad muscular existe un incremento en la densidad de potencia espectral en el rango de 50-150 Hz, seguido de un retorno gradual a niveles basales durante los periodos de reposo, consistente con análisis tiempo-frecuencia reportados en la literatura [4].
+### Análisis del músculo gastrocnemio
+Para el gastrocnemio, las señales exhiben un patrón de activación similar, con incrementos pronunciados en la amplitud durante las contracciones de flexión plantar. El espectrograma del gastrocnemio muestra bandas de alta densidad de potencia durante los episodios de contracción muscular, con una transición clara entre estado de reposo y activación, consistente con patrones documentados en la literatura [5].
+### Comparación entre condiciones experimentales
+Las contracciones con carga de 5 kg muestran valores de amplitud aproximadamente 2-3 veces superiores a las contracciones sin carga (solamente respecto a sinpeso1), lo cual es esperable dado que la demanda de fuerza es mayor. Vigotsky et al. [6] documentaron que existe una relación directa entre la intensidad de contracción muscular y la amplitud EMG, explicada por el reclutamiento progresivo de unidades motoras de mayor umbral según el principio del tamaño de Henneman.
+Las diferencias entre repeticiones del mismo ejercicio (sinpeso1 vs sinpeso2; conpeso1 vs conpeso2) son relativamente pequeñas, sugiriendo buena reproducibilidad de las mediciones y colocación adecuada de los electrodos; no obstante, esto no se evidencia en comparación de las mediciones usando peso versus sinpeso2, pues este último llega hasta un rango de 1 mV, lo cual es considerablemente más alto que los picos de las mediciones con peso.
+## Evaluación de limitaciones basadas en evidencia
+### Limitaciones técnicas de adquisición
+El uso de electrodos adhesivos superficiales presenta limitaciones inherentes relacionadas con la impedancia de la piel, la ubicación exacta del electrodo y la posible interferencia de músculos adyacentes (crosstalk). Estudios recientes han evidenciado que la confiabilidad de las mediciones de EMG depende críticamente de la correcta colocación de los electrodos, siendo las recomendaciones del proyecto SENIAM consideradas un estándar de referencia para su posicionamiento. Asimismo, se ha reportado que la señal EMG puede verse significativamente afectada por el crosstalk y por variaciones en la configuración del sistema de detección, lo que introduce variabilidad en los resultados si no se siguen protocolos estandarizados [7]. Adicionalmente, la interfaz piel-electrodo constituye una fuente importante de ruido e interferencia en la señal, lo que resalta la necesidad de controlar parámetros como la impedancia para garantizar la calidad de las mediciones [8]. En este sentido, la ausencia de una verificación cuantitativa de la impedancia en el presente estudio podría haber introducido variabilidad en las mediciones. Por otro lado, no se empleó el uso de filtros y procesamiento de profundo de señales con el fin de obtener gráficos más suaves, lo cual podría generar confusiones al momento del análisis en frecuencia.
+### Análisis espectral en señales dinámicas
+El análisis espectral mediante la transformada de Fourier (FFT) asume que la señal es estacionaria, condición que solo se cumple de manera aproximada en ventanas temporales cortas. Sin embargo, durante contracciones dinámicas, la señal EMG presenta un comportamiento inherentemente no estacionario debido a la variabilidad en el reclutamiento de unidades motoras y cambios en la longitud muscular. En este contexto, enfoques en el dominio tiempo–frecuencia, como la transformada de Fourier de corta duración (STFT) y la transformada wavelet continua (CWT), permiten una representación más adecuada de estas variaciones transitorias. Estudios recientes, como el de Farfán, F.D. et al. [9], destacan que estas técnicas proporcionan una caracterización más completa de señales EMG no estacionarias al capturar cambios dinámicos en el contenido espectral, superando las limitaciones de los métodos basados únicamente en Fourier. En este sentido, el uso de STFT en el presente estudio permite mitigar parcialmente estas limitaciones, aunque con un compromiso en la resolución tiempo-frecuencia en comparación con métodos wavelet.
+### Ausencia de normalización
+Una limitación relevante es la ausencia de normalización de las señales EMG respecto a una contracción voluntaria máxima (MVC). El consenso CEDE (Consensus for Experimental Design in Electromyography) [10] enfatiza que la normalización a MVC es esencial para comparaciones inter-individuales y reduce la variabilidad atribuible a diferencias en la colocación de electrodos y características anatómicas. Esta ausencia limita la interpretación cuantitativa de las diferencias de amplitud observadas entre condiciones.
+### Control de factores confusores
+El estudio no controló sistemáticamente factores como el nivel de fatiga pre-experimental, estado de hidratación o temperatura muscular. Sun, J. [3] señalan que incluso niveles moderados de fatiga residual pueden alterar significativamente las características espectrales de la señal, con incrementos en la amplitud RMS y desplazamiento hacia frecuencias más bajas.
+### Tamaño de muestra y generalización
+El estudio incluyó únicamente 2 sujetos masculinos jóvenes (20 años) físicamente normales, limitando la generalización de los resultados. Estudios recientes han documentado diferencias significativas en las características espectrales de señales EMG entre grupos de edad, género y nivel de condición física [5,7].
+A pesar de estas limitaciones, el estudio cumple con su objetivo educativo de registrar y analizar señales EMG en diferentes músculos y condiciones de carga, proporcionando resultados cualitativamente consistentes con la literatura científica reciente.
+# Referencias
+1. Konrad P. The ABC of EMG: a practical introduction to kinesiological electromyography. 1st ed. Scottsdale (AZ): Noraxon USA Inc.; 2005.
+2. Stefanovic F, Ramanarayanan S, Karkera NU, Mujumdar R, Sivaswaamy Mohana P, Hostler D. Rate of change in longitudinal EMG indicates time course of an individual's neuromuscular adaptation in resistance-based muscle training. Front Rehabil Sci. 2022;3:981990. doi:10.3389/fresc.2022.981990
+3. Sun J, Liu G, Sun Y, Lin K, Zhou Z, Cai J. Application of surface electromyography in exercise fatigue: a review. Front Syst Neurosci. 2022;16:893275. doi:10.3389/fnsys.2022.893275
+4. Cifrek M, Medved V, Tonković S, Ostojić S. Surface EMG based muscle fatigue evaluation in biomechanics. Clin Biomech (Bristol, Avon). 2009;24(4):327–340.
+5. De Freitas RM, Kohn AF. Spectral characterization of human leg EMG signals from an open access dataset for the development of computational models. PLoS One. 2024;19(4):e0302632. doi:10.1371/journal.pone.0302632
+6. Vigotsky AD, Halperin I, Lehman GJ, Trajano GS, Vieira TM. Interpreting signal amplitudes in surface electromyography studies in sport and rehabilitation sciences. Front Physiol. 2018;8:985. doi:10.3389/fphys.2017.00985
+7. Merlo A, Bò MC, Campanini I. Electrode size and placement for surface EMG bipolar detection from the brachioradialis muscle: a scoping review. Sensors (Basel). 2021;21(21):7322. doi:10.3390/s21217322
+8. Sousa ASP, Noites A, Vilarinho R, Santos R. Long-term electrode–skin impedance variation for electromyographic measurements. Sensors (Basel). 2023;23(20):8582. doi:10.3390/s23208582
+9. Farfán FD, Albarracín AL, Cano LA, Fernández E. Assessing time–frequency analysis methods for non-stationary EMG bursts: application to an animal model of Parkinson’s disease. Sensors (Basel). 2026;26(5):1688. doi:10.3390/s26051688
+10. Dick TJM, Tucker K, Hug F, Besomi M, van Dieën JH, Enoka RM, et al. Consensus for experimental design in electromyography (CEDE) project: application of EMG to estimate muscle force. J Electromyogr Kinesiol. 2024;79:102910. doi:10.1016/j.jelekin.2024.102910
