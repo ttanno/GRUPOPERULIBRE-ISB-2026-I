@@ -1,0 +1,14 @@
+# Introducción
+La electromiografía (EMG) es una técnica utilizada en ingeniería biomédica para evaluar la actividad eléctrica generada por los músculos durante su contracción. Se define como un método experimental orientado al desarrollo, registro y análisis de señales mioeléctricas, las cuales se originan por variaciones fisiológicas en las membranas de las fibras musculares [1]. Su aplicación permite analizar patrones de activación muscular, detectar alteraciones neuromusculares y apoyar el diagnóstico clínico y la rehabilitación.
+En este contexto, el presente estudio tiene como objetivo registrar y analizar señales electromiográficas en músculos específicos durante estados de reposo y contracción, con el fin de identificar variaciones en la señal y comparar el comportamiento entre diferentes grupos musculares.
+# Metodología
+Para el estudio de las señales musculares se empleó un Bitalino (r)evolution, una placa especializada en la captación de señales fisiológicas, a la que se le conectó un sensor de electromiográfico junto con dos electrodos adhesivos. Adicionalmente se usó un electrodo lead como referencia. El Bitalino fue conectado a una laptop con el software Open Signals instalado. Este software es el que nos permite realizar las grabaciones y monitorear en tiempo real las señales del EMG.
+El Bitalino se vinculó a través de una conexión Bluetooth a la laptop. Luego se realizó la conexión de cables. El cable del EMG se conectó al puerto A1 del Bitalino, mientras que la referencia se colocó en el A2. En el software Open Signals se configuró el puerto A1 como “EMG” y el A2 como referencia.
+Lo siguiente fue colocar los electrodos en los músculos de interés. En nuestro caso realizamos dos pruebas: una en el gastrocnemio derecho, con referencia en la rótula, y una en el bícep derecho, con referencia en el codo. Una vez colocados los electrodos, nos aseguramos que el individuo esté relajado y alejado de otros dispositivos electrónicos.
+Ahora iniciamos la grabación en el software, la cual se deja correr por un minuto sin ningún estímulo. Una vez terminado el minuto, se le indica al individuo que realice el movimiento muscular y nos aseguramos que el software capte la variación de la señal. El movimiento muscular es realizado 5 veces con intervalos de 5 segundos de pausa. Una vez terminados los 5 movimientos, la grabación se para y el archivo es exportado en formato .txt para su posterior análisis.
+El análisis es realizado en un programa de Python, bajo la plataforma Google Colab, donde se comparan los movimientos realizados en cada ensayo y se analizan las diferencias entre los estímulos de cada músculo.
+# Resultados
+## Fotos
+### Gastrocnemio derecho
+![Gastrocnemio derecho](GRUPOPERULIBRE-ISB-2026-I/Laboratorios/Laboratorio 4/VIDEOS Y FOTOS/gastrocnemioDerecho.png)
+### Bicep derecho
