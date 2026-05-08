@@ -21,8 +21,9 @@ El estudio de la respuesta cardiovascular frente a distintos estímulos permite 
 ![5](VIDEOS%20Y%20FOTOS/5.png)
 
 ## Ploteo de señales
-### Derivada I
-#### Registro electrocardiográfico en reposo
+### Estado Basal 1
+#### Derivada I
+##### Registro electrocardiográfico en reposo
 | Parámetro           | Valor       |
 |---------------------|-------------|
 | Duración total      | 32.8 s      |
@@ -30,14 +31,13 @@ El estudio de la respuesta cardiovascular frente a distintos estímulos permite 
 | Picos R detectados  | 51          |
 | RR medio            | 647.5 ms    |
 | FC estimada         | 92.7 bpm    |
-#### Graficas
-![Estado Basal Derivada I](<VIDEOS Y FOTOS/D1SIGNAL.png>)
-![EKG derivada I](<VIDEOS Y FOTOS/EKG1.png>)
-![Transformada de Fourier Derivada I](<VIDEOS Y FOTOS/FFT1.png>)
+##### Graficas
+![Estado Basal Derivada I](<VIDEOS Y FOTOS/EstadoBasal1/D1SIGNAL.png>)
+![EKG derivada I](<VIDEOS Y FOTOS/EstadoBasal1/EKG1.png>)
+![Transformada de Fourier Derivada I](<VIDEOS Y FOTOS/EstadoBasal1/FFT1.png>)
 
-### Derivada II
-#### Registro electrocardiográfico en reposo
-## Estado Basal 1 — Derivación II
+#### Derivada II
+##### Registro electrocardiográfico en reposo
 | Parámetro          | Valor    |
 |--------------------|----------|
 | Duración total     | 35.4 s   |
@@ -46,13 +46,13 @@ El estudio de la respuesta cardiovascular frente a distintos estímulos permite 
 | RR medio           | 690.0 ms |
 | FC estimada        | 87.0 bpm |
 
-#### Graficas
-![Estado Basal Derivada I](<VIDEOS Y FOTOS/D2SIGNAL.png>)
-![EKG derivada I](<VIDEOS Y FOTOS/EKG2.png>)
-![Transformada de Fourier Derivada I](<VIDEOS Y FOTOS/FFT2.png>)
+##### Graficas
+![Estado Basal Derivada I](<VIDEOS Y FOTOS/EstadoBasal1/D2SIGNAL.png>)
+![EKG derivada I](<VIDEOS Y FOTOS/EstadoBasal1/EKG2.png>)
+![Transformada de Fourier Derivada I](<VIDEOS Y FOTOS/EstadoBasal1/FFT2.png>)
 
-### Derivada III
-#### Registro electrocardiográfico en reposo
+#### Derivada III
+##### Registro electrocardiográfico en reposo
 | Parámetro          | Valor    |
 |--------------------|----------|
 | Duración total     | 30.7 s   |
@@ -60,10 +60,272 @@ El estudio de la respuesta cardiovascular frente a distintos estímulos permite 
 | Picos R detectados | 49       |
 | RR medio           | 635.5 ms |
 | FC estimada        | 94.4 bpm |
-#### Graficas
-![Estado Basal Derivada I](<VIDEOS Y FOTOS/D3SIGNAL.png>)
-![EKG derivada I](<VIDEOS Y FOTOS/EKG3.png>)
-![Transformada de Fourier Derivada I](<VIDEOS Y FOTOS/FFT3.png>)
+##### Graficas
+![Estado Basal Derivada I](<VIDEOS Y FOTOS/EstadoBasal1/D3SIGNAL.png>)
+![EKG derivada I](<VIDEOS Y FOTOS/EstadoBasal1/EKG3.png>)
+![Transformada de Fourier Derivada I](<VIDEOS Y FOTOS/EstadoBasal1/FFT3.png>)
+---
+### Estado Basal 2
+#### Derivada I
+##### Registro electrocardiográfico en reposo
+| Parámetro           | Valor       |
+|---------------------|-------------|
+| Duración total      | 31.8 s      |
+| Muestras            | 31,800      |
+| Picos R detectados  | 60          |
+| RR medio            | 532.3 ms    |
+| FC estimada         | 112.7 bpm    |
+##### Graficas
+![Estado Basal 2 Derivada I](<VIDEOS Y FOTOS/EstadoBasal2/D1SIGNAL.png>)
+![EKG derivada I](<VIDEOS Y FOTOS/EstadoBasal2/ECG1.png>)
+![Transformada de Fourier Derivada I](<VIDEOS Y FOTOS/EstadoBasal2/FFT1.png>)
+
+#### Derivada II
+##### Registro electrocardiográfico en reposo
+| Parámetro          | Valor    |
+|--------------------|----------|
+| Duración total     | 30.6 s   |
+| Muestras           | 30,600   |
+| Picos R detectados | 51       |
+| RR medio           | 605.7 ms |
+| FC estimada        | 99.1 bpm |
+
+##### Graficas
+![Estado Basal 2 Derivada II](<VIDEOS Y FOTOS/EstadoBasal2/D2SIGNAL.png>)
+![EKG derivada II](<VIDEOS Y FOTOS/EstadoBasal2/ECG2.png>)
+![Transformada de Fourier Derivada II](<VIDEOS Y FOTOS/EstadoBasal2/FFT2.png>)
+
+#### Derivada III
+##### Registro electrocardiográfico en reposo
+| Parámetro          | Valor    |
+|--------------------|----------|
+| Duración total     | 30.7 s   |
+| Muestras           | 30,750   |
+| Picos R detectados | 49       |
+| RR medio           | 628.9 ms |
+| FC estimada        | 95.4 bpm |
+##### Graficas
+![Estado Basal Derivada 2 I](<VIDEOS Y FOTOS/EstadoBasal2/D3SIGNAL.png>)
+![EKG derivada I](<VIDEOS Y FOTOS/EstadoBasal2/ECG3.png>)
+![Transformada de Fourier Derivada I](<VIDEOS Y FOTOS/EstadoBasal2/FFT3.png>)
+---
+### Ciclo 1
+#### Derivada I
+##### Registro electrocardiográfico en reposo
+| Parámetro          | Valor    |
+|--------------------|----------|
+| Duración total     | 30.9 s   |
+| Muestras           | 30,900   |
+| Picos R detectados | 49       |
+| RR medio           | 641.2 ms |
+| FC estimada        | 93.6 bpm |
+##### Graficas
+![Ciclo 1 Derivada I](<VIDEOS Y FOTOS/Ciclo1/D1.png>)
+![EKG derivada I](<VIDEOS Y FOTOS/Ciclo1/ECG1.png>)
+![Transformada de Fourier Derivada I](<VIDEOS Y FOTOS/Ciclo1/FFT1.png>)
+
+#### Derivada II
+##### Registro electrocardiográfico en reposo
+| Parámetro          | Valor    |
+|--------------------|----------|
+| Duración total     | 30.9 s   |
+| Muestras           | 30,900   |
+| Picos R detectados | 48       |
+| RR medio           | 646.0 ms |
+| FC estimada        | 92.9 bpm |
+
+##### Graficas
+![Ciclo 1 Derivada II](<VIDEOS Y FOTOS/Ciclo1/D2.png>)
+![EKG derivada II](<VIDEOS Y FOTOS/Ciclo1/ECG2.png>)
+![Transformada de Fourier Derivada II](<VIDEOS Y FOTOS/Ciclo1/FFT2.png>)
+
+#### Derivada III
+##### Registro electrocardiográfico en reposo
+| Parámetro          | Valor    |
+|--------------------|----------|
+| Duración total     | 30.9 s   |
+| Muestras           | 30,900   |
+| Picos R detectados | 47       |
+| RR medio           | 665.9 ms |
+| FC estimada        | 90.1 bpm |
+##### Graficas
+![Ciclo1 Derivada III](<VIDEOS Y FOTOS/Ciclo1/D3.png>)
+![EKG derivada III](<VIDEOS Y FOTOS/Ciclo1/ECG3.png>)
+![Transformada de Fourier Derivada III](<VIDEOS Y FOTOS/Ciclo1/FFT3.png>)
+---
+### Ciclo 2
+#### Derivada I
+##### Registro electrocardiográfico en reposo
+| Parámetro           | Valor       |
+|---------------------|-------------|
+| Duración total      | 30.9 s      |
+| Muestras            | 30,900      |
+| Picos R detectados  | 51          |
+| RR medio            | 614.3 ms    |
+| FC estimada         | 97.7 bpm    |
+##### Graficas
+![Ciclo 2 Derivada I](<VIDEOS Y FOTOS/Ciclo2/D1.png>)
+![EKG derivada I](<VIDEOS Y FOTOS/Ciclo2/ECG1.png>)
+![Transformada de Fourier Derivada I](<VIDEOS Y FOTOS/Ciclo2/FFT1.png>)
+
+#### Derivada II
+##### Registro electrocardiográfico en reposo
+| Parámetro          | Valor    |
+|--------------------|----------|
+| Duración total     | 31.0 s   |
+| Muestras           | 31,050   |
+| Picos R detectados | 51       |
+| RR medio           | 616.9 ms |
+| FC estimada        | 97.3 bpm |
+
+##### Graficas
+![Ciclo 2 Derivada II](<VIDEOS Y FOTOS/Ciclo2/D2.png>)
+![EKG derivada II](<VIDEOS Y FOTOS/Ciclo2/ECG2.png>)
+![Transformada de Fourier Derivada II](<VIDEOS Y FOTOS/Ciclo2/FFT2.png>)
+
+#### Derivada III
+##### Registro electrocardiográfico en reposo
+| Parámetro          | Valor    |
+|--------------------|----------|
+| Duración total     | 30.7 s   |
+| Muestras           | 30,750   |
+| Picos R detectados | 47       |
+| RR medio           | 654.4 ms |
+| FC estimada        | 91.7 bpm |
+##### Graficas
+![Ciclo 2 Derivada III](<VIDEOS Y FOTOS/Ciclo2/D3.png>)
+![EKG derivada III](<VIDEOS Y FOTOS/Ciclo2/ECG3.png>)
+![Transformada de Fourier Derivada III](<VIDEOS Y FOTOS/Ciclo2/FFT3.png>)
+---
+### Burpees
+#### Derivada I
+##### Registro electrocardiográfico en reposo
+| Parámetro           | Valor       |
+|---------------------|-------------|
+| Duración total      | 30.7 s      |
+| Muestras            | 30,750      |
+| Picos R detectados  | 44          |
+| RR medio            | 680.8 ms    |
+| FC estimada         | 88.1 bpm    |
+##### Graficas
+![Burpees Derivada I](<VIDEOS Y FOTOS/Burpees/D1.png>)
+![EKG derivada I](<VIDEOS Y FOTOS/Burpees/ECG1.png>)
+![Transformada de Fourier Derivada I](<VIDEOS Y FOTOS/Burpees/FFT1.png>)
+
+#### Derivada II
+##### Registro electrocardiográfico en reposo
+| Parámetro          | Valor    |
+|--------------------|----------|
+| Duración total     | 30.7 s   |
+| Muestras           | 30,750   |
+| Picos R detectados | 76       |
+| RR medio           | 404.3 ms |
+| FC estimada        | 148.4 bpm |
+
+##### Graficas
+![Burpees Derivada II](<VIDEOS Y FOTOS/Burpees/D2.png>)
+![EKG derivada II](<VIDEOS Y FOTOS/Burpees/ECG2.png>)
+![Transformada de Fourier Derivada II](<VIDEOS Y FOTOS/Burpees/FFT2.png>)
+
+#### Derivada III
+##### Registro electrocardiográfico en reposo
+| Parámetro          | Valor    |
+|--------------------|----------|
+| Duración total     | 30.7 s   |
+| Muestras           | 30,750   |
+| Picos R detectados | 71       |
+| RR medio           | 431.5 ms |
+| FC estimada        | 139.1 bpm |
+##### Graficas
+![Burpees Derivada III](<VIDEOS Y FOTOS/Burpees/D3.png>)
+![EKG derivada III](<VIDEOS Y FOTOS/Burpees/ECG3.png>)
+![Transformada de Fourier Derivada III](<VIDEOS Y FOTOS/Burpees/FFT3.png>)
+---
+### Escalera
+#### Derivada I
+##### Registro electrocardiográfico en reposo
+| Parámetro           | Valor       |
+|---------------------|-------------|
+| Duración total      | 30.6 s      |
+| Muestras            | 30,600      |
+| Picos R detectados  | 60          |
+| RR medio            | 511.2 ms    |
+| FC estimada         | 117.4 bpm    |
+##### Graficas
+![Escalera Derivada I](<VIDEOS Y FOTOS/Escalera/D1.png>)
+![EKG derivada I](<VIDEOS Y FOTOS/Escalera/ECG1.png>)
+![Transformada de Fourier Derivada I](<VIDEOS Y FOTOS/Escalera/FFT1.png>)
+
+#### Derivada II
+##### Registro electrocardiográfico en reposo
+| Parámetro          | Valor    |
+|--------------------|----------|
+| Duración total     | 30.9 s   |
+| Muestras           | 30,900   |
+| Picos R detectados | 64       |
+| RR medio           | 488.8 ms |
+| FC estimada        | 122.7 bpm |
+
+##### Graficas
+![Escalera Derivada II](<VIDEOS Y FOTOS/Escalera/D2.png>)
+![EKG derivada II](<VIDEOS Y FOTOS/Escalera/ECG2.png>)
+![Transformada de Fourier Derivada II](<VIDEOS Y FOTOS/Escalera/FFT2.png>)
+
+#### Derivada III
+##### Registro electrocardiográfico en reposo
+| Parámetro          | Valor    |
+|--------------------|----------|
+| Duración total     | 31.0 s   |
+| Muestras           | 31,050   |
+| Picos R detectados | 62       |
+| RR medio           | 501.3 ms |
+| FC estimada        | 119.7 bpm |
+##### Graficas
+![Escalera Derivada III](<VIDEOS Y FOTOS/Escalera/D3.png>)
+![EKG derivada III](<VIDEOS Y FOTOS/Escalera/ECG3.png>)
+![Transformada de Fourier Derivada III](<VIDEOS Y FOTOS/Escalera/FFT3.png>)
+---
+### Apnea
+#### Derivada I
+##### Registro electrocardiográfico en reposo
+| Parámetro           | Valor       |
+|---------------------|-------------|
+| Duración total      | 31.3 s      |
+| Muestras            | 31,350      |
+| Picos R detectados  | 50          |
+| RR medio            | 632.3 ms    |
+| FC estimada         | 94.9 bpm    |
+##### Graficas
+![Apnea Derivada I](<VIDEOS Y FOTOS/Apnea/D1.png>)
+![EKG derivada I](<VIDEOS Y FOTOS/Apnea/ECG1.png>)
+
+#### Derivada II
+##### Registro electrocardiográfico en reposo
+| Parámetro          | Valor    |
+|--------------------|----------|
+| Duración total     | 30.7 s   |
+| Muestras           | 30,750   |
+| Picos R detectados | 58       |
+| RR medio           | 532.8 ms |
+| FC estimada        | 112.6 bpm |
+
+##### Graficas
+![Apnea Derivada II](<VIDEOS Y FOTOS/Apnea/D2.png>)
+![EKG derivada II](<VIDEOS Y FOTOS/Apnea/ECG2.png>)
+
+#### Derivada III
+##### Registro electrocardiográfico en reposo
+| Parámetro          | Valor    |
+|--------------------|----------|
+| Duración total     | 30.6 s   |
+| Muestras           | 30,600   |
+| Picos R detectados | 58       |
+| RR medio           | 528.6 ms |
+| FC estimada        | 113.5 bpm |
+##### Graficas
+![Apnea Derivada III](<VIDEOS Y FOTOS/Apnea/D3.png>)
+![EKG derivada III](<VIDEOS Y FOTOS/Apnea/ECG3.png>)
+---
 ### Frecuencia cardiaca en cada caso
 ![Frecuencia cardiaca en cada caso por derivada](<VIDEOS Y FOTOS/FrecuenciaCardiaca.png>)
 
