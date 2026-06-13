@@ -1,6 +1,7 @@
 # Peru libre
 ## Bienvenidos al repositorio del Grupo 6
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/124684393?h=a3fc5713b9" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
+
+![gif](media/image1.gif)
 
 Curso: **Introducción a Señales Biomédicas 2026-I**
 
